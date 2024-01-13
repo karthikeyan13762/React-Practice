@@ -1,24 +1,34 @@
-import React from 'react'
-
-import Apple from './Apple'
+import React from 'react';
 
 
+class Car extends React.Component{
 
-// praameters props vanguroam destrustring mulakavum edukalam
-function Car({propps}) {
+  constructor(){
+    super();
 
-console.log(propps);
-
-    return <>
-        <h1>Hi Iam Car</h1>
-
-
-       
-
-        <h1>{propps.brand} color is {propps.color} </h1>
-
-    </>;
-
+    this.state={color:"Red"}
   }
 
-export default Car
+  render(){
+
+    return(
+     <>
+
+        <div>
+
+        <h1>This Class Component color is {this.state.color}</h1>
+          <button onClick={()=>{this.setState({color:"blue"})}}>Change Color</button>
+        </div>
+
+
+     </>
+       
+
+     
+    )
+  }
+
+}
+
+
+export default Car;

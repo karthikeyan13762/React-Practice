@@ -13,12 +13,12 @@ function Header (){
     return(
         <>
 
-<h1 style={inlieStyle}>INline style</h1>
+        <h1 style={inlieStyle}>INline style</h1>
 
-<h1 className={styles.bigblue}>Particular modul css</h1>
+        <h1 className={styles.bigblue}>Particular modul css</h1>
 
 
-<h1 className={styles.bigblue}>Particular NO 2 modul css</h1>
+        <h1 className={styles.bigblue}>Particular NO 2 modul css</h1>
         </>
     )
 }

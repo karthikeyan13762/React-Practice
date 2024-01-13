@@ -10,7 +10,14 @@ function Scooter(){
 
     const [scooter,setScooter]=useState({color:"Red",brand:"Honda",modal:"Activa",year:'2023'})
 
+    const udateColor=()=>{
+        setScooter(previousStateCopy=>{
 
+            return {...previousStateCopy,color:"blue"}
+        })
+    }
+    
+    console.log(scooter)
     return(
 
        <div>
@@ -19,6 +26,7 @@ function Scooter(){
             <p>Brand :{scooter.brand}</p>
             <p>Modal :{scooter.modal}</p>
             <p>Year :{scooter.year}</p>
+            <button onClick={udateColor}>Change color</button>
 
        </div>
     )

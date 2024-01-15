@@ -2,10 +2,15 @@
 import './App.css'
 
 import React from 'react'
+import List from './Comonents/List'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+
+    
+    
+    </div>
   )
 }
 

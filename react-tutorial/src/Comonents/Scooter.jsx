@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import List from './List';
 
 function Scooter(){
     
@@ -19,7 +20,7 @@ function Scooter(){
             <p>Modal :{scooter.modal}</p>
             <p>Year :{scooter.year}</p>
             <button onClick={udateColor}>Change color</button>
-
+            <List/>
        </div>
     )
 

@@ -2,12 +2,13 @@
 import './App.css'
 
 import React from 'react'
-import List from './Comonents/List'
+import Myform from './Comonents/Myform'
+
 
 function App() {
   return (
     <div>
-
+  <Myform/>
     
     
     </div>

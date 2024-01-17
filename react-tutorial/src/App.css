@@ -1,0 +1,14 @@
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+ul{
+    display: flex;
+   flex-direction: row;
+  
+}
+ul li a{
+    text-decoration: none;
+}
